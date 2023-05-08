@@ -1,0 +1,161 @@
+@font-face {
+    font-family: 'TAEBAEKmilkyway';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2302@1.0/TAEBAEKmilkyway.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'omyu_pretty';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2304-01@1.0/omyu_pretty.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'S-CoreDream-3Bold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-3Light.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'S-CoreDream-3Light';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-3Light.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'NanumSquareNeo-Variable';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_11-01@1.0/NanumSquareNeo-Variable.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+#intro-header{
+    display:flex;
+    text-align: center;
+    justify-content: center;
+}
+
+#name-header{
+    font-family: 'TAEBAEKmilkyway';
+    color: #5ec1d1;
+    font-size: 50px;
+}
+
+#oneline-intro{
+    font-family: 'S-CoreDream-3Bold';
+    color: #537496;
+    font-size: 15px;
+    font-weight: 700;
+    display:flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.title-container{
+    display:flex;
+    flex-direction: row;
+    align-items: baseline;
+    padding-left:15px;
+}
+
+.little-index{
+    font-family: 'omyu_pretty';
+    color:#FF9F97;
+    font-size: 15px;
+
+}
+.describe-title{
+    font-family: 'NanumSquareNeo-Variable';
+    color:#1e3c69;
+    font-weight: bold;
+    font-size: 18px;
+    margin-left:15px;
+}
+.text-container{
+    display:flex;
+    flex-direction: row;
+    margin-left:15px;
+    margin-right:15px;
+    margin-bottom:5px;
+
+}
+.describe-text{
+    font-family: 'NanumSquareNeo-Variable';
+    color:#313035;
+    line-height: 2;
+}
+.text-aboutme{
+    border: 1px hidden #313035;
+}
+
+#yoasobi{
+    height: 100%;
+    margin-left: 15px;
+    margin-right:15px;
+}
+
+#ahrilol{
+    width: 100%;
+    margin-left: 15px;
+    margin-right:15px;
+}
+
+#tag-list{
+    font-family: 'NanumSquareNeo-Variable';
+    color:#1e3c69;
+    font-weight: bold;
+    font-size:18px;
+    margin-top:15px;
+}
+
+#tag-box{
+    margin-left: 15px;
+    margin-bottom: 30px;
+    flex-direction: column;
+
+}
+
+.tag-button{
+    font-family: 'NanumSquareNeo-Variable';
+    font-weight: light;
+    background-color: #ffffff;
+    color: #fd5e98;
+    border-color: #fd5e98;
+    border-radius: 20px;
+    padding:12px;
+    margin-top:15px;
+}
+
+.appear-box{
+    font-family: 'NanumSquareNeo-Variable';
+    color:#1e3c69;
+    font-weight: normal;
+    background-color: #fd5e98;
+    margin-top:15px;
+    display: flex;
+    border-radius: 20px;
+    align-items: baseline;
+    width:250px;
+    text-align : center;
+}
+
+#close{
+    font-family: 'NanumSquareNeo-Variable';
+    color:#1e3c69;
+    background-color: #ffffff;
+    margin-left: 15px;
+    border:none;
+    border-radius: 10px;
+    height:40px;
+}
+
+#playtime{
+    margin-top: 15px;
+    margin-left: 15px;
+}
+
+#legacy{
+    margin-top: 15px;
+    margin-left: 15px;
+}
+
